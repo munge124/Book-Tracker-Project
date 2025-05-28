@@ -1,4 +1,4 @@
-from lib.connection import session
+from lib.db.connection import session
 from lib.models.user import User
 
 def create_user(name):

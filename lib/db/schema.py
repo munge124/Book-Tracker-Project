@@ -1,6 +1,6 @@
 # lib/schema.py
 
-from lib.connection import Base, engine
+from lib.db.connection import Base, engine
 from lib.models.user import User
 from lib.models.book import Book
 from lib.models.reading_status import ReadingStatus

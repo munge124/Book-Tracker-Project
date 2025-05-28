@@ -1,4 +1,4 @@
-from lib.connection import session
+from lib.db.connection import session
 from lib.models.book import Book
 
 def add_book(title, author):

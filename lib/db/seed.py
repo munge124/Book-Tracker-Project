@@ -1,4 +1,4 @@
-from lib.connection import session
+from lib.db.connection import session
 from lib.models.user import User
 from lib.models.book import Book
 from lib.models.reading_status import ReadingStatus
